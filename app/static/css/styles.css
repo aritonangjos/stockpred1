@@ -1,0 +1,44 @@
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f6f9ff 0%, #ffffff 60%);
+  color: #1f2a44;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.prediction-table thead {
+  background-color: rgba(13, 110, 253, 0.08);
+}
+
+.prediction-table tbody tr td {
+  vertical-align: middle;
+}
+
+.badge.bg-gradient {
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+}
+
+.badge.signal-buy {
+  background-color: #198754;
+}
+
+.badge.signal-sell {
+  background-color: #dc3545;
+}
+
+.badge.signal-hold {
+  background-color: #ffc107;
+  color: #1f2a44;
+}
+
+@media (max-width: 576px) {
+  h1.display-5 {
+    font-size: 2rem;
+  }
+}
